@@ -1,12 +1,6 @@
 import datetime
 import tweepy
 
-with open('line.json') as f:
-    line_json = json.load(f)
-with open('twitter.json') as f:
-    twitter_json = json.load(f)
-
-
 def get_api():
     consumer_key = twitter_json['consumer_key']
     consumer_secret = twitter_json['consumer_secret']
